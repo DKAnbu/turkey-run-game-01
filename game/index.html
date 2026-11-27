@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Gobble's Great Escape - The Thanksgiving Run</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas" width="960" height="540"></canvas>
+    <div id="mobile-controls" class="hidden">
+      <div id="touch-dpad">
+        <button id="btn-up" class="touch-btn" aria-label="Jump / Flutter">▲</button>
+        <button id="btn-down" class="touch-btn" aria-label="Slide / Duck">▼</button>
+      </div>
+      <div id="touch-actions">
+        <button id="btn-dash" class="touch-btn action-btn" aria-label="Sprint / Dash">DASH</button>
+        <button id="btn-gobble" class="touch-btn action-btn" aria-label="Gobble / Taunt">GOBBLE!</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

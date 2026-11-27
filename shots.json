@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01_title_screen.png",
+    "query": "",
+    "waitMs": 600,
+    "description": "Retro title screen showcasing Gobble's Great Escape and Thanksgiving controls"
+  },
+  {
+    "name": "02_farmyard_action.png",
+    "query": "?screen=play&stage=1",
+    "waitMs": 800,
+    "description": "Gobble sprinting and leaping over autumn pumpkins while fleeing Farmer John"
+  },
+  {
+    "name": "03_cornfield_dash.png",
+    "query": "?screen=play&stage=2",
+    "waitMs": 800,
+    "description": "Gobble dashing through the Cornfield Labyrinth outrunning the Hungry Hound"
+  },
+  {
+    "name": "04_kitchen_escape.png",
+    "query": "?screen=play&stage=3",
+    "waitMs": 800,
+    "description": "High stakes showdown in The Fiery Kitchen evading Chef Pierre and flying cleavers"
+  }
+]
